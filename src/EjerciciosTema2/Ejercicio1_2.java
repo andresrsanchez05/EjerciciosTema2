@@ -1,6 +1,6 @@
 package EjerciciosTema2;
 
-public class Ejercicio2 {
+public class Ejercicio1_2 {
 	
 	public static void ex232(int n) {
 		 if (n <= 0) return;

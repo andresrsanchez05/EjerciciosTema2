@@ -1,6 +1,6 @@
 package EjerciciosTema2;
 
-public class Ejercicio3 {
+public class Ejercicio1_3 {
 
 	public static String ex233(int n) {
 		 if (n <= 0) return "";
