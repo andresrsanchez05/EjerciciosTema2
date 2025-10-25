@@ -1,5 +1,7 @@
 package EjerciciosTema2;
 
+import java.util.Scanner;
+
 public class Ejercicio3_1 {
 	
 	public static long ejercicio1a(int N) {
@@ -36,9 +38,15 @@ public class Ejercicio3_1 {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println("El tiempo total de ejecucion del ejercicio 1a es " + ejercicio1a(300000) + " nanosegundos");
-		System.out.println("El tiempo total de ejecucion del ejercicio 1b es " + ejercicio1b(300000) + " nanosegundos");
-		System.out.println("El tiempo total de ejecucion del ejercicio 1c es " + ejercicio1c(300000) + " nanosegundos");
+		System.out.println("Inserte un número:");
+		Scanner sc = new Scanner(System.in);
+		int numero = sc.nextInt();
+		sc.close();
+		
+		
+		System.out.println("El tiempo total de ejecucion del ejercicio 1a es " + ejercicio1a(numero) + " nanosegundos");
+		System.out.println("El tiempo total de ejecucion del ejercicio 1b es " + ejercicio1b(numero) + " nanosegundos");
+		System.out.println("El tiempo total de ejecucion del ejercicio 1c es " + ejercicio1c(numero) + " nanosegundos");
 	}
 
 }
